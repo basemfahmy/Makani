@@ -1,0 +1,212 @@
+/*
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+*/
+
+/*start xs screen*/
+@media(max-width:575px){    
+/* important fix*/
+.schedule .events .info section .item { margin-bottom: 20px;  width: 70%;}
+.schedule .events .info section .item p i {left: -27px;}
+.schedule .events .info section .item p 
+{display: block; width: 120%;top: 7px; left:0px;}
+.speakers .main-item ,.faqs .info section .item,.stats .item p,.stats .stats-parent
+{left: 0px;}
+.footer p{margin-left: 0px;}
+/* important fix*/   
+/* h1,h2,h3,h4,h5{border: 1px solid red} /*test only*/
+.main-box{padding: 45px 0px 30px 0px}
+.navbar-light .navbar-nav .nav-link{margin-bottom: 15px;}
+.navbar-light .navbar-brand {position: relative;left: -23px;} 
+.navbar-light .navbar-toggler{position: relative; left: 23px;} 
+.ml-auto, .mx-auto { padding-top: 15px;}
+.header .info p, .schedule .events .info section .item .hidden-content,
+.gallery .main-p,.supscription .main-p,.news-letter .main-p,
+.speakers .main-p,.faqs .main-p,.pricing .main-p{width: 100%;}  
+.speakers .item .mic{top: 70%}    
+.header{height: auto;padding-bottom: 90px;} 
+.header .info{padding-top: 140px;}
+.header .info p{margin-top: -20px;}
+.header .info .button-list{top: -40px;}
+.bx-wrapper .bx-pager {top: inherit;  bottom: -152px;}
+.bx-wrapper .bx-pager-item{display: inline-block;}
+.schedule {padding-top: 50px;}
+.schedule .events .navigation { margin-bottom: 20px}
+.schedule .events .info section .item .hidden-content{margin-top: 25px;}
+.schedule .events .navigation button {  margin-bottom: 15px;}
+.schedule .testimonials {margin-top: 30px;}
+.schedule .testimonials{padding-bottom: 14px;}
+.schedule .testimonials .info img{width: 33%}
+.schedule .controls {left: -1px;top: 135px}
+.gallery {padding-bottom: 50px;}
+.gallery .item {margin-right: 0px;margin-bottom: 16px;}
+.gallery .item .overlay .top-heading{display: none;}
+.gallery .item .overlay .info{    position: relative; top: inherit;}
+.gallery .item .overlay .info p{display: none;}
+.supscription{height: auto;padding-bottom: 50px;}
+.supscription form{text-align: center;}
+.supscription form .main-field input {margin-bottom: 15px;}
+.supscription form .my-button{width: 90%}
+.news-letter{padding-bottom: 30px}
+.news-letter form{ position: relative; top: -76px; margin-top: 55px;margin-bottom: 40px;}
+.news-letter .main-field input{width: 90%;}
+.news-letter .main-field .risk{left: 36%;}
+.news-letter .my-button {width: 20%;left: 14%;}
+.time .item{margin-bottom: 22px;}
+.speakers .main-item { text-align: center;}
+.speakers .item{ margin-bottom: 60px; width: 100%;}   
+.speakers .item img {  width: 100%;}
+.speakers .item .social-links {display: none;}
+.speakers .item .social-links a i {display: none;}
+.speakers .item .info{left: 30%;}
+.faqs .info section .item p i{left: 15px;}    
+.faqs .info section .item .hidden-content{width: 90%;}
+.stats{padding-bottom: 0px}
+.stats .stats-parent{text-align: center;}
+.stats .item {margin-bottom: 55px;}
+.stats .item p{top: 14px;}
+.pricing{padding-bottom: 10px;}
+.pricing .package{margin-bottom: 75px;}   
+.footer .links a i { margin-right: -2px; font-size: 15px;}
+.go-up{display: none !important;}
+}
+/*end xs screen*/
+
+/*start sm screen*/
+@media(min-width:576px) and (max-width:767px){
+/* important fix*/
+.schedule .events .info section .item { margin-bottom: 0px;  width: 70%;}
+.schedule .events .info section .item p i {left: -27px;}
+.schedule .events .info section .item p { width: 100%; top: -36px;left: -102px;}
+.speakers .main-item ,.faqs .info section .item,.stats .item p,.stats .stats-parent
+{left: 0px;}
+.footer p{margin-left: 0px;}
+/* important fix*/  
+/*h1,h2,h3,h4,h5{border: 2px solid blue} /*test only*/
+.navbar-light .navbar-nav .nav-link{margin-bottom: 15px;}
+.navbar-light .navbar-brand {position: relative;left: -23px;} 
+.navbar-light .navbar-toggler{position: relative; left: 23px;} 
+.ml-auto, .mx-auto { padding-top: 15px;}    
+.header .info p, .schedule .events .info section .item .hidden-content,
+.gallery .main-p,.supscription .main-p,.news-letter .main-p,
+.speakers .main-p,.faqs .main-p,.pricing .main-p{width: 100%;} 
+.gallery .item {margin-right: 0px;}
+.header{height: auto;padding-bottom: 110px;} 
+.header .info{padding-top: 160px;}
+.header .info p{margin-top: -20px;}
+.header .info .button-list{top: -40px;}
+.bx-wrapper .bx-pager {top: inherit;  bottom: -152px;}
+.bx-wrapper .bx-pager-item{display: inline-block;}  
+.schedule .testimonials .info {margin-top: 50px;}
+.schedule .testimonials .info img { margin-top: -98px;}
+.schedule .testimonials { padding-bottom: 18px;}
+.gallery {padding-bottom: 70px;}
+.gallery .item .overlay { padding: 65px 25px 30px 25px}
+.gallery .item { margin-bottom: 13px;}
+.supscription{height: auto;padding-bottom: 60px;}
+.supscription form{text-align: center;}
+.supscription form .main-field input {margin-bottom: 15px;}
+.supscription form .my-button{width: 90%}
+.news-letter{padding-bottom: 45px ; padding-top: 50px;}
+.news-letter form
+{ position: relative; top: -76px; margin-top: 55px;margin-bottom: 40px;}
+.news-letter .main-field input{width: 90%;}
+.news-letter .main-field .risk{left: 36%;}
+.news-letter .my-button {width: 22%;left: 10%;}
+.time .item{margin-bottom: 22px;}
+.speakers  { padding-bottom: 0px;}
+.speakers .item { width: 100%;}    
+.speakers .item img {  width: 100%;}
+.speakers .item .social-links{right: 8%;}
+.speakers .item .social-links a i { margin-right: -26px;}
+.stats{text-align: center;}
+.stats .item p {top: 15px;}
+.stats .item {margin-bottom: 55px;}
+.faqs{padding-bottom: 15px;}
+.faqs .info section .item p {  left: -15px;}
+.faqs .info section .item p i{left: 43px;}
+.faqs .info section .item .hidden-content {width: 90%;   left: -12px}
+.pricing{padding-bottom: 10px;}
+.pricing .package { margin-bottom: 85px;}
+}
+/*end sm screen*/
+
+/*start md screen*/
+@media(min-width:768px) and (max-width:991px){
+/* important fix*/
+.schedule .events .info section .item { margin-bottom: 0px;  width: 70%;}
+.schedule .events .info section .item p i {left: -27px;}
+.schedule .events .info section .item p { width: 100%; top: -36px;left: -102px;}
+.speakers .main-item ,.faqs .info section .item,.stats .item p,.stats .stats-parent
+{left: 0px;}
+.footer p{margin-left: 0px;}
+/* important fix*/  
+/* h1,h2,h3,h4,h5{border: 2px solid green} /*test only*/
+.navbar-light .navbar-nav .nav-link{margin-bottom: 15px;}
+.navbar-light .navbar-brand {position: relative;left: -23px;} 
+.navbar-light .navbar-toggler{position: relative; left: 23px;} 
+.ml-auto, .mx-auto { padding-top: 15px;}    
+.header .info p, .schedule .events .info section .item .hidden-content,
+.gallery .main-p,.supscription .main-p,.news-letter .main-p,
+.speakers .main-p,.faqs .main-p,.pricing .main-p{width: 100%;} 
+.header{height: auto;padding-bottom: 130px;} 
+.header .info{padding-top: 160px;}
+.header .info p{margin-top: -20px;}
+.header .info .button-list{top: -40px;}
+.bx-wrapper .bx-pager {top: inherit;  bottom: -152px;}
+.bx-wrapper .bx-pager-item{display: inline-block; }   
+.schedule .testimonials .info {margin-top: 50px;}
+.schedule .testimonials .info img { margin-top: -98px;}
+.schedule .testimonials { padding-bottom: 18px;} 
+.schedule .controls{left: 32px;}
+.gallery .item { margin-bottom: 13px; margin-right: 0px;}
+.supscription{height: auto;padding-bottom: 60px;}
+.supscription form{text-align: center;}
+.supscription form .main-field input {margin-bottom: 15px;}
+.supscription form .my-button{width: 90%}
+.news-letter .main-field input{width: 90%;}
+.news-letter .main-field .risk{left: 36%;}
+.news-letter .my-button {width: 22%;left: 10%;}
+.speakers  { padding-bottom: 0px;}
+.speakers .item { width: 100%;}    
+.speakers .item img {  width: 100%;}
+.speakers .item .mic{top:75%}
+.speakers .item .social-links{right: -5%;}
+.speakers .item .social-links a i { margin-right: 7px;}   
+.faqs .info section .item p i {left: 37px;} 
+.faqs .info section .item .hidden-content {width: 85%;}   
+.stats{text-align: center; padding-bottom: 70px;}
+.stats .item p {top: 25px;} 
+.pricing{padding-bottom: 10px;}
+.pricing .package { margin-bottom: 85px;}    
+}
+/*end md screen*/
+
+/*start lg sreen*/
+@media(min-width:992px) and (max-width:1199px){
+/* important fix*/
+.speakers .main-item ,.faqs .info section .item,.stats .item p,.stats .stats-parent
+{left: 0px;}
+.footer p{margin-left: 0px;}
+/* important fix*/  
+/*h1,h2,h3,h4,h5{border: 2px solid orange} /*test only*/ 
+.schedule .controls{left: 4px; top:84px;}  
+.schedule .testimonials{padding-bottom: 13px;}
+.gallery .item {margin-right: 0px; margin-bottom: 10px;}
+.gallery .item .overlay {  padding: 33px 25px 30px 25px}
+.gallery .item .overlay  h3{ margin-bottom: 20px}
+.news-letter .main-field .risk {left: 415px;}
+.speakers .item { width: 100%;}    
+.speakers .item .social-links{left: 0;}    
+.speakers .item .social-links a i{margin-right: -19px;}    
+.faqs .info section .item .hidden-content {width: 70%;}  
+.faqs .info section .item{left: -15px;}
+.faqs .info section .item p i{left: 110px;}
+.stats{text-align: center; padding-bottom: 70px;}
+.stats .item p {top: 25px;} 
+.pricing .package .package-body .price-tag p 
+{ width: 53%;  padding: 25px 15px 25px 15px;}
+}
+/*end lg sreen*/
